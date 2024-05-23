@@ -4,10 +4,12 @@ Model-based analysis of solute transport and potential carbon mineralization in 
 The simulations were performed using ATS v1.4
 
 Guide:
+
 [] data
   * contains the mesh (.exo) used to perform the spinup and transient simulations
   * contains the forcing data (.h5), which includes the weather data extracted from the adventdalen and LYR airport weather stations
   * contains the column_data.h5 and freezeup_checkpoint_final.h5 file, which is needed as initial condition to perform the spinup
+
 [] input_files
   * 00_freezeup.xml: first spinup step
   * 01_permafrost_column.xml: second spinup step
